@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.caja-principal {
+    width: 420px;
+    height: auto;
+    background-color: white;
+}
+
+.encabezado {
+    width: 420px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.cajahtml {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.cajaellipsis {
+    width: auto;
+    height: auto;
+}
+
+.imagen {
+    width: 420px;
+    height: auto;
+}
+
+img {
+    width: 420px;
+    height: auto;
+}
+
+.caja-awesomes {
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+    height: auto;
+    padding: 10px;
+}
+
+.caja-tres-awesome {
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+.caja-bookmark-awesome {
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+.texto {
+    width: 420px;
+    height: auto;
+    text-align: justify;
+    padding: 10px;
+}
