@@ -12,10 +12,8 @@ body {
     height: 100vh;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
-    font-weight: weight;
     font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
+    font-size: 13px;
 }
 
 .caja-principal {
@@ -29,7 +27,7 @@ body {
     height: auto;
     display: flex;
     justify-content: space-between;
-    padding: 10px 0;
+    padding: 12px 0px 12px 7px;
 }
 
 .cajahtml {
@@ -77,6 +75,5 @@ img {
 .texto {
     width: 420px;
     height: auto;
-    text-align: justify;
-    padding: 10px;
+    padding: 12px 0px 25px 12px;
 }
